@@ -2,14 +2,11 @@
   display: flex;
   width: 927px;
   min-height: 508px;
-  left: 310px;
-  background: rgba(217, 217, 217, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
+  left: 430px;
   position: relative;
-  margin-top: -100px;
+  margin-top: -300px;
   margin-bottom: -250px;
-  background-color: #eeeeee;
+ 
 }
 
 .hero-video-container {
@@ -59,7 +56,6 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 10px 10px;
-  /* width: 300px; */
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   background: rgba(255, 255, 255, 0.06);

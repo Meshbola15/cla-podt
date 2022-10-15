@@ -2,7 +2,10 @@
   width: 100%;
   padding-bottom: 50px;
   height: fit-content;
-  background-color: var(--deep-purple);
+  background-color: #0C0D1F;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .hero-context-container {
@@ -11,13 +14,13 @@
   z-index: 1;
 }
 
-.bg-image {
-  width: 45vw;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 0;
+.bg-image{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 50vw;
 }
+
 
 .hero-text-container {
   font-family: "Montserrat", sans-serif;

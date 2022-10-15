@@ -88,10 +88,11 @@
 .chart-frag p {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    opacity: 60%;
 }
 
 .chart-holder {

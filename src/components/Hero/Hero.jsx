@@ -33,9 +33,9 @@ const Hero = () => {
               <span>5.0</span>/ 100's of Review rating
             </h2>
           </div>
-          <img src={heroBG} className="bg-image" />
         </section>
       </div>
+          <img src={heroBG} className="bg-image" />
     </div>
   );
 };
