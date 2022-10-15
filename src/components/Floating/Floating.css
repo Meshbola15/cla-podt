@@ -1,0 +1,138 @@
+.hero-down {
+  display: flex;
+  width: 927px;
+  min-height: 508px;
+  left: 100px;
+  background: rgba(217, 217, 217, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  position: relative;
+  margin-top: -250px;
+  margin-bottom: -250px;
+}
+
+.hero-video-container {
+  background-color: var(--purple);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: grid;
+  padding: auto;
+  width: 636px;
+  height: 508px;
+}
+
+.hero-video-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.hero-video-header img {
+  position: relative;
+  width: 54px;
+  height: 12px;
+  left: 23px;
+}
+
+.hero-video-header h2 {
+  left: 30%;
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+
+.hero-video-placeholder {
+  width: 578px;
+  height: 388px;
+  margin: auto;
+}
+
+.hero-video-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 10px;
+  /* width: 300px; */
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  /* width: 925px; */
+  height: 508px;
+  width: 291.14px;
+}
+
+.hero-video-text h1 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 44px;
+}
+
+.hero-video-text p {
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Inter;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-video-text article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: flex-start;
+  justify-self: baseline;
+  margin-top: 40px;
+}
+
+.hero-video-text article img {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.hero-video-text article h2 {
+  font-size: 12px;
+  font-family: "inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 780px) {
+  .hero-down {
+    flex-direction: column;
+    min-height: 644px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: relative;
+  }
+}
