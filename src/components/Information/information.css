@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 50px;
+    margin-top: 230px;
     /* max-height: 100vh; */
 }
 
@@ -75,7 +76,7 @@
     .information-img-container {
         width: 100%;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .information-text-container p {
@@ -92,8 +93,7 @@
         margin-bottom: 40px;
         max-width: 181px;
         max-height: 362px;
-        margin-left: 0;
-
+        margin: 0 30px
     }
 }
 

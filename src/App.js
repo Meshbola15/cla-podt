@@ -4,6 +4,7 @@ import Counter from "./components/Counter/Counter";
 import Crypto from "./components/Crypto/Crypto";
 import Faq from "./components/Faq/Faq";
 import Floating from "./components/Floating/Floating";
+import Floating2 from "./components/Floating2/Floating2";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Infomation from "./components/Information/Infomation";
@@ -20,6 +21,7 @@ function App() {
       <Infomation />
       <Counter />
       <Learning />
+      <Floating2 />
       <Chart />
       <Crypto />
       <VIdeo />

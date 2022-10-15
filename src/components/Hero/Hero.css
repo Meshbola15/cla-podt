@@ -121,7 +121,7 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 374px;
+    /* width: 374px; */
     height: 294px;
   }
 
@@ -138,7 +138,7 @@
 
   .hero-video-placeholder {
     width: 330px;
-    height: 221.52px;
+    /* height: 221.52px; */
   }
 
   .hero-video-text h1 {
