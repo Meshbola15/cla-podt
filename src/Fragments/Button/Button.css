@@ -1,59 +1,54 @@
 .solid {
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: var(--blue);
-    border-radius: 20px;
-    color: var(--white);
-    text-decoration: none;
-    border: 2px solid var(--blue);
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    display: inline-flex;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: var(--blue);
+  border-radius: 20px;
+  color: var(--white);
+  text-decoration: none;
+  border: 2px solid var(--blue);
+  text-align: center;
+  display: inline-flex;
+  width: fit-content;
 }
 
 .solid img,
 .bordered img {
-    /* width: 30px; */
-    height: 20px;
+  /* width: 30px; */
+  height: 20px;
 }
 
 .bordered {
-    /* border: 2px solid var(--blue); */
-    font-size: 16px;
-    color: var(--black);
-    background: #DADBDC;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    display: inline-flex;
-    position: relative;
-    padding-right: 70px;
+  /* border: 2px solid var(--blue); */
+  font-size: 16px;
+  color: var(--black);
+  background: #dadbdc;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  position: relative;
+  padding-right: 70px;
 }
 
 .bordered div {
-    position: absolute;
-    background: var(--blue);
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    display: grid;
-    place-items: center;
+  position: absolute;
+  background: var(--blue);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  display: grid;
+  place-items: center;
 }
 
 .trans {
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: var(--white);
-    text-decoration: none;
-    border: 2px solid var(--blue);
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    display: inline-flex;
-    border: 2px solid var(--blue)
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: var(--white);
+  text-decoration: none;
+  border: 2px solid var(--blue);
+  text-align: center;
+  display: inline-flex;
+  border: 2px solid var(--blue);
 }

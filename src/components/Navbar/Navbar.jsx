@@ -24,7 +24,7 @@ const Menu = () => {
       <a href="#" className="nav-links">
         Contact
       </a>
-      <Button link="#" buttonStyle="solid" buttonText="Get Our Book" />
+      <a href="#" className="solid">Get Our Book</a>
     </>
   );
 };

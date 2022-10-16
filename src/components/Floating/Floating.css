@@ -1,12 +1,11 @@
 .hero-down {
   display: flex;
-  width: 927px;
+  width: 90vw;
   min-height: 508px;
-  left: 430px;
-  position: relative;
-  margin-top: -300px;
-  margin-bottom: -250px;
- 
+  left: 205px;
+  position: absolute;
+  /* bottom: -100px; */
+  z-index: 20;
 }
 
 .hero-video-container {
@@ -16,6 +15,8 @@
   display: grid;
   padding: auto;
   width: 636px;
+  width: 45vw;
+  padding:40px 0;
   height: 508px;
 }
 
@@ -64,12 +65,11 @@
   -webkit-backdrop-filter: blur(4.6px);
   height: 100%;
   width: 100%;
-  /* position: absolute; */
-  /* width: 925px; */
   height: 508px;
-  width: 291.14px;
+  width: 491.14px;
+  z-index: 6;
+  color: white;
 }
-
 .hero-video-text h1 {
   font-family: "Poppins";
   font-size: 16px;

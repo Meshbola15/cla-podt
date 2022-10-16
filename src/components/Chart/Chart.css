@@ -6,9 +6,8 @@
 }
 
 .chart-text-header {
-    width: 70vw;
+    width: 100%;
     text-align: center;
-    margin: auto;
     margin-top: 100px;
 }
 
@@ -30,8 +29,8 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    width: 911px;
     color: #B4B4B4;
+    text-align: center;
 }
 
 .chart-frag {

@@ -17,7 +17,6 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Floating />
       <Infomation />
       <Counter />
       <Learning />

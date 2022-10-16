@@ -1,13 +1,12 @@
 import React from "react";
 import video from "../../Assets/video-4.png";
 import Carousel from "react-elastic-carousel";
-import "./Video.css"
+import "./Video.css";
 
 const breakPoints = [
-  {width: 1, itemsToShow: 1},
-  { width: 966, itemsToShow: 2 },
-  { width: 1220, itemsToShow: 3, itemsToScroll: 1 },
-  { width: 2000, itemsToShow: 3 },
+  { width: 1, itemsToShow: 1, itemsToScroll: 1 },
+  { width: 966, itemsToShow: 2, itemsToScroll: 1 },
+  { width: 2000, itemsToShow: 3, itemsToScroll: 1 },
 ];
 
 const VIdeo = () => {
@@ -17,22 +16,21 @@ const VIdeo = () => {
       <div className="">
         <Carousel
           breakPoints={breakPoints}
-          showArrows={false}
-          pagination={false}
-          autoPlaySpeed={2000}
-          enableAutoPlay={true}
+          // showArrows={false}
+          // pagination={false}
+          // enableAutoPlay={true}
           enableMouseSwipe={true}
           enableSwipe={true}
           itemsToScroll={1}
-          isRTL={true}
-          showEmptySlots={true}
+          // isRTL={true}
+          // showEmptySlots={true}
         >
-          <img src={video} alt="" />
-          <img src={video} alt="" />
-          <img src={video} alt="" />
-          <img src={video} alt="" />
-          <img src={video} alt="" />
-          <img src={video} alt="" />
+          <img src={video} />
+          <img src={video} />
+          <img src={video} />
+          <img src={video} />
+          <img src={video} />
+          <img src={video} />
         </Carousel>
       </div>
     </div>
