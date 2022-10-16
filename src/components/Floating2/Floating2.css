@@ -11,6 +11,11 @@
   padding: 60px 200px;
 }
 
+.floating{
+  padding: 30px;
+  padding-top: 60px;
+}
+
 .floating3-container {
   min-height: 520px;
   width: fit-content;
@@ -100,5 +105,6 @@
 
   .floating2-placeholder {
     width: 90vw;
+    margin-left: 0;
   }
 }

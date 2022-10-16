@@ -131,6 +131,7 @@
     left: 0px;
     right: 0px;
     position: relative;
+    margin-top: -50px;
   }
   .hero-video-container {
     width: 100vw;

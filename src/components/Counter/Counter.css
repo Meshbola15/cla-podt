@@ -34,8 +34,8 @@
   background-color: var(--white);
   padding: 50px;
   border-radius: 20px;
-  min-width: 427px;
-  min-height: 324px;
+  width: 35vw;
+  height: 344px;
   margin: 0 10px;
 }
 
@@ -57,9 +57,10 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 85px;
   color: #28324b;
+  margin: 0;
 }
 
 .counter-section h1 span {
@@ -91,7 +92,8 @@
   .counter-section {
     width: 100%;
     margin-top: 20px;
-    height: 324px;
+    height: auto;
+    padding: 30px;
   }
 
   .counter-container {
