@@ -1,22 +1,32 @@
 .Video-container {
-    padding: 120px 200px;
-    margin: auto;
-    text-align: center;
-    background-color: #EEEEEE;
+  padding: 120px 200px;
+  margin: auto;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.video-carousel {
+  margin: 0 auto;
 }
 
 .Video-container h2 {
-    font-size: 40px;
-    margin-bottom: 30px;
-    font-family: "inter", sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: "inter", sans-serif;
+  text-align: center;
 }
 
-@media screen and (max-width: 780px) {
-    .Video-container {
-        padding: 20px 30px;
-    }
+.video-btn {
+  margin: 10px auto;
+  margin-top: 30px;
+}
 
-    .Video-container h2 {
-        font-size: 30px;
-    }
+@media screen and (max-width: 1200px) {
+  .Video-container {
+    padding: 20px 30px;
+  }
+
+  .Video-container h2 {
+    font-size: 30px;
+  }
 }

@@ -85,9 +85,13 @@
   font-weight: var(--normal);
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1200px) {
   .bg-image {
     display: none;
+  }
+
+  .hero-container{
+    margin-top: 60px;
   }
 
   .hero-text-container {

@@ -1,86 +1,88 @@
 .Navbar-container {
-    width: 100%;
-    padding: var(--padding-lg);
-    background-color: var(--deep-purple);
-    padding: 20px 100px
+  /* width: 100%; */
+  padding: var(--padding-lg);
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 100px;
 }
 
 .Navbar-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .Navbar-header-container h1 {
-    font-size: 20px;
-    color: var(--white);
-    cursor: pointer;
+  font-size: 20px;
+  color: var(--white);
+  cursor: pointer;
 }
 
 .nav-links {
-    color: var(--white);
-    margin: 0px 20px;
-    text-decoration: none;
-    font-size: 15px;
+  color: var(--white);
+  margin: 0px 20px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .nav-links:hover {
-    color: var(--gold);
+  color: var(--gold);
 }
 
 .nav-links-btn {
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: var(--blue);
-    border-radius: 20px;
-    color: var(--white);
-    text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: var(--blue);
+  border-radius: 20px;
+  color: var(--white);
+  text-decoration: none;
 }
 
 .mobile-btn,
 .mobile {
-    display: none;
-    outline: none;
-    border: none;
+  display: none;
+  outline: none;
+  border: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .Navbar-container {
+    padding: 20px 30px;
+    position: relative;
+  }
 
+  .Navbar-header-container h1 {
+    align-self: flex-start;
+  }
 
-@media screen and (max-width: 780px) {
+  .nav-links {
+    margin: 5px 0;
+  }
 
-    .Navbar-container {
-        padding: 20px 30px
-    }
+  .nav-links-container {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+  }
 
-    .Navbar-header-container h1 {
-        align-self: flex-start;
-    }
+  .mobile-btn {
+    background-color: var(--blue);
+    padding: 5px;
+    display: grid;
+    place-content: center;
+  }
 
-    .nav-links {
-        margin: 5px 0;
-    }
+  .desktop {
+    display: none;
+  }
 
-    .nav-links-container {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-        align-items: flex-end;
-    }
-
-    .mobile-btn {
-        background-color: var(--blue);
-        padding: 5px;
-        display: grid;
-        place-content: center;
-    }
-
-    .desktop {
-        display: none;
-    }
-
-    .mobile {
-        display: flex;
-        flex-direction: column;
-    }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -2,12 +2,14 @@ import React from "react";
 import Button from "../../Fragments/Button/Button";
 import star from "../../Assets/5Stars.png";
 import heroBG from "../../Assets/Hero-bg-1.png";
+import Navbar from "../Navbar/Navbar.jsx"
 import "./Hero.css";
 import Floating from "../Floating/Floating";
 
 const Hero = () => {
   return (
     <div className="hero">
+      <Navbar />
       <div className="hero-container">
         <div className="hero-context-container">
           <section className="hero-text-container">
@@ -31,7 +33,7 @@ const Hero = () => {
             <div className="hero-rating-container">
               <h2>
                 Excellent
-                <img src={star} />
+                <img src={star} al="5-start" />
                 <span>5.0</span>/ 100's of Review rating
               </h2>
             </div>
@@ -42,7 +44,7 @@ const Hero = () => {
             <Floating />
           </div>
         </div>
-        <img src={heroBG} className="bg-image" />
+        <img src={heroBG} alt="background" className="bg-image" />
       </div>
     </div>
   );

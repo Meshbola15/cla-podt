@@ -1,174 +1,174 @@
 .chart-container {
-    background-color: #0D1927;
-    padding-top: 100px;
-    padding: 40px 100px;
-
+  background-color: #0d1927;
+  padding-top: 100px;
+  padding: 40px 100px;
 }
 
 .chart-text-header {
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .chart-text-header h1 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
-    text-align: center;
-    color: #FFFFFF;
-    width: 80vw;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+  width: 80vw;
 }
 
 .chart-text-header h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #B4B4B4;
-    text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #b4b4b4;
+  text-align: center;
 }
 
 .chart-frag {
-    width: 388px;
-    height: 422px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    background-color: #19233D;
-    border-radius: 20px;
-    border-bottom: #29ABFF solid 7px;
-    margin-left: 20px;
+  width: 388px;
+  height: 422px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #19233d;
+  border-radius: 20px;
+  border-bottom: #29abff solid 7px;
+  margin-left: 20px;
 }
 
 .chart-img-1 {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-
-
 .chart-frag .chart-img-1 img {
-    width: 100%;
-    margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .chart-frag article {
-    padding: 20px 30px;
-    margin-bottom: 60px;
+  padding: 20px 30px;
+  margin-bottom: 60px;
 }
 
 .chart-frag h1 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    /* identical to box height */
-    color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #ffffff;
 }
 
 .chart-frag hr {
-    width: 150px;
-    margin: 20px 0;
-    background-color: #29ABFF;
-    height: 5px;
-    border: none;
+  width: 150px;
+  margin: 20px 0;
+  background-color: #29abff;
+  height: 5px;
+  border: none;
 }
 
 .chart-frag p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    opacity: 60%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 60%;
 }
 
 .chart-holder {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5vw;
 }
 
 .chart-btn {
-    margin-top: 30px;
-    display: grid;
-    place-content: center;
+  margin-top: 30px;
+  display: grid;
+  place-content: center;
 }
 
-@media screen and (max-width: 780px) {
-    .chart-holder {
-        flex-direction: column;
-    }
+@media screen and (max-width: 1000px) {
+  .chart-holder {
+    flex-direction: column;
+  }
 
-    .chart-frag,
-    .chart-img-1,
-    .chart-img-1 img {
-        width: 100vw;
-    }
+  .chart-frag,
+  .chart-img-1,
+  .chart-img-1 img {
+    width: 100vw;
+  }
 
-    .chart-frag {
-        width: 100%;
-        min-height: 410px;
-        margin-top: 20px;
-        margin-left: 0px;
-        height: fit-content;
-    }
+  .chart-frag {
+    width: 100%;
+    min-height: 410px;
+    margin-top: 20px;
+    margin-left: 0px;
+    height: fit-content;
+  }
 
-    .chart-container {
-        padding: 20px 30px;
-    }
+  .chart-container {
+    padding: 20px 30px;
+  }
 
-    .chart-text-header {
-        width: 100%;
-    }
+  .chart-text-header {
+    width: 100%;
+  }
 
-    .chart-text-header h1 {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 38px;
-        text-align: center;
-        color: #FFFFFF;
-    }
+  .chart-text-header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+  }
 
-    .chart-text-header h2 {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 38px;
-        text-align: center;
-        color: #FFFFFF;
-    }
+  .chart-text-header h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  .chart-frag img {
+    width: 100%;
+  }
 
-    .chart-frag article h1 {
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 27px;
-    }
+  .chart-frag article h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+  }
 
-    .chart-frag article p {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    }
+  .chart-frag article p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .chart-container {
-        padding: 120px 200px;
-    }
-
+  .chart-container {
+    padding: 120px 200px;
+  }
 }
