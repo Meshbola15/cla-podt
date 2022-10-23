@@ -1,5 +1,6 @@
 import React from "react";
 import "./Chart.css";
+import Carousel from "react-elastic-carousel";
 import chartImage1 from "../../Assets/chart-group-1.svg";
 import chartImage2 from "../../Assets/chart-group-2.svg";
 import chartImage3 from "../../Assets/chart-group-3.svg";
@@ -9,15 +10,40 @@ import chartImage6 from "../../Assets/chart-group-6.svg";
 import Chart_container from "./Chart_container";
 import Button from "../../Fragments/Button/Button";
 
+const breakPoints = [{ itemsToShow: 1, itemsToScroll: 1 }];
+
 const Chart = () => {
   return (
     <div className="chart-container">
       <div className="chart-text-header">
         <h1>Here is a Recap of Everything You’re Getting Inside CLA…</h1>
-        <h2>
-          We could write pages on the benefits of the MKE and how it can help
-          you become the best version of yourself in a few short weeks.{" "}
-        </h2>
+        <Carousel
+          breakPoints={breakPoints}
+          enableMouseSwipe={true}
+          enableSwipe={true}
+        >
+          <iframe
+            src="https://player.vimeo.com/video/762006608?h=fec1839799"
+            frameborder="0"
+            allow="fullscreen; picture-in-picture"
+            allowfullscreen
+            title="Training Videos Inside View.mp4"
+          ></iframe>
+
+          <iframe
+            src="https://player.vimeo.com/video/762052249?h=e220f403e8"
+            frameborder="0"
+            allow="fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            src="https://player.vimeo.com/video/762051998?h=dbe10d0891"
+            frameborder="0"
+            allow="fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </Carousel>
       </div>
       <div className="chart-holder">
         <Chart_container

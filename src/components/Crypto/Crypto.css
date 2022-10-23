@@ -43,8 +43,6 @@
   font-weight: 500;
 }
 
-
-
 .crypto-list h1 {
   color: #19243e;
   font-family: "Montserrat", sans-serif;
@@ -67,7 +65,12 @@
 }
 
 .crypto-list iframe {
-  display: none;
+  width: 640px;
+  height: 564px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -97,6 +100,8 @@
   .crypto-list iframe {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
 
   .crypto-list h1 {

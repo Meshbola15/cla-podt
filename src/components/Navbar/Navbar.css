@@ -16,9 +16,8 @@
   flex-direction: row;
 }
 
-.Navbar-header-container h1 {
-  font-size: 20px;
-  color: var(--white);
+.Navbar-header-container img {
+  width: 100px;
   cursor: pointer;
 }
 

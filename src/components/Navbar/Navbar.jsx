@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Button from "../../Fragments/Button/Button";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import logo from "../../Assets/logo.png";
 import "./Navbar.css";
 
 const Menu = () => {
@@ -19,12 +19,11 @@ const Menu = () => {
         Client Success
       </a>
       <a href="#" className="nav-links">
-        Our Blog
+        Contact Us
       </a>
-      <a href="#" className="nav-links">
-        Contact
+      <a href="#" className="solid">
+        Sign up Free Today
       </a>
-      <a href="#" className="solid">Get Our Book</a>
     </>
   );
 };
@@ -34,7 +33,7 @@ const Navbar = () => {
   return (
     <div className="Navbar-container">
       <div className="Navbar-header-container">
-        <h1>CLA</h1>
+        <img src={logo} alt="" />
         <section className="nav-links-container">
           <button className="mobile-btn" onClick={() => setOpened(!opened)}>
             {opened ? (

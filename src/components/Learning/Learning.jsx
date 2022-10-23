@@ -44,7 +44,7 @@ const Learning = () => {
             journey without any confusion or hassle.
           </p>
           <Button
-            buttonText="Read Full Story Here"
+            buttonText="Visit Parent Company"
             buttonStyle="solid"
             link="https://www.highriseelite.com/"
           />

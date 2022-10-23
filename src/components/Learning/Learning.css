@@ -74,6 +74,7 @@
 
   .learning-img-container-1 {
     width: 100%;
+    margin-right: 0;
   }
 
   .learning-text-context h1,
@@ -83,10 +84,12 @@
 
   .learning-text-context h1 {
     font-size: 16px;
+    text-align: center;
   }
 
   .learning-container h2 {
     font-size: 20px;
+    text-align: center;
   }
 
   .learning-container p {
@@ -121,6 +124,10 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+  }
+  .learning-img-container-1 div iframe {
+    margin: 0 auto;
+    margin-right: 0;
   }
 }
 

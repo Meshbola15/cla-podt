@@ -14,11 +14,12 @@ const Floating = () => {
         </div>
         <div className="hero-video">
           <iframe
-            src="https://player.vimeo.com/video/761785779?h=a5aaae35df&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://player.vimeo.com/video/762443853?h=63af5faed7"
+            width="640"
+            height="564"
             frameborder="0"
-            allow="fullscreen; picture-in-picture"
+            allow="fullscreen"
             allowfullscreen
-            title="CLA Video1"
           ></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>

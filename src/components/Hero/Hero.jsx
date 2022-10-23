@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../Fragments/Button/Button";
 import star from "../../Assets/5Stars.png";
 import heroBG from "../../Assets/Hero-bg-1.png";
-import Navbar from "../Navbar/Navbar.jsx"
+import Navbar from "../Navbar/Navbar.jsx";
 import "./Hero.css";
 import Floating from "../Floating/Floating";
 
@@ -38,9 +38,12 @@ const Hero = () => {
               </h2>
             </div>
           </section>
-          <div className="" style={{
-            minHeight: "308px"
-          }}>
+          <div
+            className=""
+            style={{
+              minHeight: "308px",
+            }}
+          >
             <Floating />
           </div>
         </div>

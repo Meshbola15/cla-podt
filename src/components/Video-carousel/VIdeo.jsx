@@ -16,15 +16,10 @@ const VIdeo = () => {
       <div className="video-carousel">
         <Carousel
           breakPoints={breakPoints}
-          // showArrows={false}
-          // pagination={false}
-          // enableAutoPlay={true}
+          pagination={false}
           enableMouseSwipe={true}
           enableSwipe={true}
-          outerSpacing={[0]}
           itemsToScroll={1}
-          // isRTL={true}
-          // showEmptySlots={true}
         >
           <iframe
             src="https://player.vimeo.com/video/761782490?h=e1fb13c81f"

@@ -15,13 +15,13 @@ const Counter = () => {
   const [counter3, setCounter3] = useState(0);
 
   useEffect(() => {
-    let count_1 = 105;
-    let count_2 = 3.5;
-    let count_3 = 36.5;
+    let count_1 = 5.5;
+    let count_2 = 150;
+    let count_3 = 100;
     if (inView === true) {
-      const timer = setTimeout(() => setCounter(counter + 1), 15);
-      const timer2 = setTimeout(() => setCounter2(counter2 + 0.5), 25);
-      const timer3 = setTimeout(() => setCounter3(counter3 + 0.5), 25);
+      const timer = setTimeout(() => setCounter(counter + 0.5), 25);
+      const timer2 = setTimeout(() => setCounter2(counter2 + 1), 25);
+      const timer3 = setTimeout(() => setCounter3(counter3 + 1), 25);
       if (counter === count_1) {
         clearTimeout(timer);
       }
@@ -43,7 +43,7 @@ const Counter = () => {
         </h2>
       </article>
       <div className="counter-holder-container" ref={ref}>
-        <section className="counter-section">
+        <section  className="counter-section">
           <img src={Calendar} />
           <h1>
             ${counter}M <span>+</span>
@@ -51,7 +51,7 @@ const Counter = () => {
           <hr />
           <h2>Revenue </h2>
         </section>
-        <section className="counter-section">
+        <section  className="counter-section">
           <img src={Contact} />
           <h1>
             ${counter2}M <span>+</span>
@@ -62,10 +62,10 @@ const Counter = () => {
         <section className="counter-section">
           <img src={position} />
           <h1>
-            ${counter3}M <span>+</span>
+            {counter3}% <span></span>
           </h1>
           <hr />
-          <h2>High Paying Clients</h2>
+          <h2>Happy Members</h2>
         </section>
       </div>
     </div>
