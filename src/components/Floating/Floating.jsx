@@ -1,4 +1,3 @@
-import React from "react";
 import "./Floating.css";
 import Quote from "../../Assets/Quote.png";
 import controls from "../../Assets/controls.png";
@@ -6,7 +5,7 @@ import profile1 from "../../Assets/profile-1.svg";
 
 const Floating = () => {
   return (
-    <div className="hero-down">
+    <div className="hero-down" id="hero-video">
       <div className="hero-video-container">
         <div className="hero-video-header">
           <img src={controls} alt="Controls" />

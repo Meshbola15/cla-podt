@@ -14,7 +14,7 @@ const breakPoints = [{ itemsToShow: 1, itemsToScroll: 1 }];
 
 const Chart = () => {
   return (
-    <div className="chart-container">
+    <div className="chart-container" id="recap">
       <div className="chart-text-header">
         <h1>Here is a Recap of Everything You’re Getting Inside CLA…</h1>
         <Carousel
@@ -81,7 +81,7 @@ const Chart = () => {
       </div>
       <div className="chart-btn">
         <Button
-          link="#"
+          link="https://cryptolearningacademy.com/register"
           buttonText="Yes, I Want to Subscribe to CLA Now"
           buttonStyle="trans"
         />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Button from "../../Fragments/Button/Button";
 import star from "../../Assets/5Stars.png";
 import heroBG from "../../Assets/Hero-bg-1.png";
@@ -8,7 +8,7 @@ import Floating from "../Floating/Floating";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <Navbar />
       <div className="hero-container">
         <div className="hero-context-container">
@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="hero-btn-container">
               <Button
-                link="#"
+                link="https://cryptolearningacademy.com/register"
                 buttonStyle="solid"
                 buttonText="Yes, I’m Ready to Join CLA Now"
               />
@@ -44,7 +44,7 @@ const Hero = () => {
               minHeight: "308px",
             }}
           >
-            <Floating />
+            <Floating  />
           </div>
         </div>
         <img src={heroBG} alt="background" className="bg-image" />

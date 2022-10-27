@@ -1,27 +1,29 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-scroll";
 import logo from "../../Assets/logo.png";
 import "./Navbar.css";
 
 const Menu = () => {
   return (
     <>
-      <a href="#" className="nav-links">
+      <Link className="nav-links" to="home" smooth={true} duration={500}>
         Home
-      </a>
-      <a href="#" className="nav-links">
+      </Link>
+      <Link className="nav-links" to="hero-video" smooth={true} duration={500}>
         Our Story
-      </a>
-      <a href="#" className="nav-links">
-        How it works
-      </a>
-      <a href="#" className="nav-links">
-        Client Success
-      </a>
-      <a href="#" className="nav-links">
-        Contact Us
-      </a>
-      <a href="#" className="solid">
+      </Link>
+      <Link className="nav-links" to="behind" smooth={true} duration={500}>
+        Who Are WE
+      </Link>
+      <Link className="nav-links" to="recap" smooth={true} duration={500}>
+        What's Inside
+      </Link>
+      <a
+        href="https://cryptolearningacademy.com/register"
+        target="_blank"
+        className="solid"
+      >
         Sign up Free Today
       </a>
     </>
@@ -30,6 +32,7 @@ const Menu = () => {
 
 const Navbar = () => {
   const [opened, setOpened] = useState(false);
+
   return (
     <div className="Navbar-container">
       <div className="Navbar-header-container">

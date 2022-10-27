@@ -37,7 +37,7 @@ const Infomation = () => {
         <Button
           buttonStyle="bordered"
           buttonText="Yes, I'm Ready to Join CLA Now"
-          link="#"
+          link="https://cryptolearningacademy.com/register"
         />
       </div>
     </div>

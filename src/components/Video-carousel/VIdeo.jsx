@@ -12,7 +12,7 @@ const breakPoints = [
 const VIdeo = () => {
   return (
     <div className="Video-container">
-      <h2>In The Media</h2>
+      <h2>Crypto in Media</h2>
       <div className="video-carousel">
         <Carousel
           breakPoints={breakPoints}
@@ -189,21 +189,13 @@ const VIdeo = () => {
             allow="fullscreen"
             allowfullscreen
           ></iframe>
-          {/* <iframe
-            src="https://player.vimeo.com/video/761782460?h=62663aabb6"
-            width="640"
-            height="564"
-            frameborder="0"
-            allow="fullscreen"
-            allowfullscreen
-          ></iframe> */}
         </Carousel>
       </div>
       <div className="video-btn">
         <Button
           buttonStyle="solid"
           buttonText="Create your account now"
-          link="#"
+          link="https://cryptolearningacademy.com/register"
         />
       </div>
     </div>

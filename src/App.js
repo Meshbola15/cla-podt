@@ -12,11 +12,6 @@ import Learning from "./components/Learning/Learning";
 import VIdeo from "./components/Video-carousel/VIdeo";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
   return (
     <div>
       <Hero />
