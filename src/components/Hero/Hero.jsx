@@ -26,14 +26,14 @@ const Hero = () => {
               <Button
                 link="https://cryptolearningacademy.com/register"
                 buttonStyle="solid"
-                buttonText="Yes, I’m Ready to Join CLA Now"
+                buttonText="Yes, I'm Ready to Join CLA Now"
               />
             </div>
 
             <div className="hero-rating-container">
               <h2>
                 Excellent
-                <img src={star} al="5-start" />
+                <img src={star} alt="5-start" />
                 <span>5.0</span>/ 100's of Review rating
               </h2>
             </div>

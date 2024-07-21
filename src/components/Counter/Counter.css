@@ -23,19 +23,23 @@
 }
 
 .counter-holder-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  margin: auto auto;
+  /* align-items: center;
+  justify-content: center; */
+  grid-template-columns: repeat(3, 1fr);
+  /* width: 100%; */
   margin-top: 20px;
-  height: fit-content;
+  width: fit-content;
+  /* height: fit-content; */
 }
 
 .counter-section {
   background-color: var(--white);
   padding: 50px;
   border-radius: 20px;
-  width: 35vw;
-  height: 344px;
+  /* width: 35vw; */
+  /* height: 344px; */
   margin: 0 10px;
 }
 
@@ -86,7 +90,10 @@
   }
 
   .counter-holder-container {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    max-width: fit-content;
+    overflow: visible;
   }
 
   .counter-section {
